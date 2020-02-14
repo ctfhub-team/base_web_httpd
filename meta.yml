@@ -1,0 +1,6 @@
+name: base_web_httpd
+title: 基础镜像 Web Apache HTTPd
+desc: 基础镜像 Web Apache HTTPd
+tags:
+    - web
+    - apache httpd

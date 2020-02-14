@@ -1,0 +1,18 @@
+#!/bin/bash
+# Author : L1n3 <yw9381@163.com>
+# Date   : 2020/02/13, 12:27
+
+# 启动服务
+service apache2 start > /dev/null 2>&1
+
+# 导入flag
+if [ -f /flag.sh ]; then
+    echo "[+] Init flag.sh"
+    source /flag.sh
+    rm -rf /flag.sh
+fi
+
+while true
+do
+    sleep 120s
+done
